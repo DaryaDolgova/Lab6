@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int a,b,c,l,g,t,d,s,v;
+cout<<"A= "; cin>>a;
+cout<<"B= "; cin>>b;
+cout<<"C= "; cin>>c;
+s=a*b;
+l=0; g=0;
+while (a>c) {a=a-c; l=l+1;}
+while (b>c) {b=b-c; g=g+1;}
+t=l*g;
+v=c*c*t;
+d=s-v;
+cout<<"Колличество квадратов= "<<t<<endl;
+cout<<"Площадь незанятой части= "<<d<<endl;
+return 0;
+} 
