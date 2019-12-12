@@ -1,0 +1,15 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int n,y;
+cout<<"N= "; cin>>n;
+if (n>=1&n<=100) {cout<<"1 столетие"<<endl;}
+else {y=n/100;}
+if (n>=(y*100+1)&n<=((y+1)*100)) {y=y+1; 
+cout<<y<<" столетие"<<endl;}
+return 0;
+}
